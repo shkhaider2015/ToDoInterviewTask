@@ -1,0 +1,47 @@
+.root 
+{
+    flex-grow: 1
+}
+.appBar {
+    background-color: white;
+}
+.logoDiv
+{
+    flex-grow: 1;
+}
+.headerText
+{
+    color: black;
+    font-size: medium;
+}
+.headerButton 
+{
+    background: #7527cf;
+    border-radius: 3;
+    border : 0;
+    color: 'white';
+    height: 48;
+    padding: '0 30px';
+    box-shadow: '0 3px 5px 2px rgba(255, 105, 135, .3)';
+}
+.logoDiv img 
+{
+    width: 20%;
+}
+.headerElelemnts
+{
+    flex-grow: 0.2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuButton
+{
+    margin-right: 10%;
+}
+
+.title 
+{
+    flex-grow: 1;
+}
