@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import "./Navbar.css"
-import { Button, Container } from '@material-ui/core';
+import { Button, Container, useTheme } from '@material-ui/core';
 import { Person, Eco } from "@material-ui/icons";
 import LOGO from "../../Images/logo.PNG";
 
@@ -12,6 +12,9 @@ export const MenuAppBar = () => {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+  const theme = useTheme();
+
+  console.log(theme)
 
   const handleChange = (event) => {
     setAuth(event.target.checked);
