@@ -55,6 +55,7 @@ export const MenuAppBar = () => {
                 auth
                 ? <Button
                     variant="contained"
+                    color="primary"
                     startIcon={<Person />}
                   >
                     SHAKEEL
@@ -65,7 +66,7 @@ export const MenuAppBar = () => {
 
               <Button
               variant="contained"
-              color="primary"
+              color="secondary"
               startIcon={<Eco />}
               >
                 GET PREMIUM
